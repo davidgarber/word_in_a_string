@@ -1,0 +1,22 @@
+Author: David Garber
+
+Title: Words in a String
+
+Description: Words in a String requires a user to enter a word then enter
+a string of words and the program will return how many times
+that word appears in the string.
+
+I could not figure out how to return zero. Also, I was not
+able to get the application to work on Chrome.
+
+Set up instructions:
+1. In the terminal, type: ruby app.rb and hit "enter."
+
+This will get Sinatra to run.
+
+2. Open a browser and proceed type "localhost:4567" in the browser
+   without "".
+
+Copyright 2015
+
+License Information - You can't afford it.
