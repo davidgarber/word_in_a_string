@@ -8,8 +8,8 @@ get('/') do
 end
 
 get('/words') do
-  @word = params.fetch("word").to_i()
+  @word = params.fetch("word")
   @string = params.fetch("string")
-  @words = @word.words_in_a_string(@string)
+  @results = @string.words_in_a_string(@word)
   erb(:words)
 end
